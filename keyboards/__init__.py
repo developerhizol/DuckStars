@@ -1,0 +1,5 @@
+from .main_menu import get_main_menu_keyboard
+from .stars import get_stars_recipient_keyboard, get_stars_quantity_keyboard, get_stars_payment_keyboard
+from .premium import get_premium_recipient_keyboard, get_premium_duration_keyboard, get_premium_payment_keyboard
+from .gifts import get_gifts_recipient_keyboard, get_gifts_anonymity_keyboard, get_gifts_list_keyboard, get_gifts_comment_keyboard, get_gifts_payment_keyboard
+from .profile import get_profile_keyboard
