@@ -1,0 +1,5 @@
+# keyboards/__init__.py
+from .main_menu import get_main_menu_keyboard
+from .stars import get_stars_recipient_keyboard, get_stars_quantity_keyboard, get_stars_payment_keyboard, get_stars_friend_keyboard
+from .premium import get_premium_recipient_keyboard, get_premium_duration_keyboard, get_premium_payment_keyboard, get_premium_friend_keyboard
+from .profile import get_profile_keyboard
