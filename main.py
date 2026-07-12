@@ -249,7 +249,7 @@ async def main():
     await runner.setup()
     site = web.TCPSite(runner, '0.0.0.0', 7216)
     await site.start()
-    logger.info("API сервер запущен на порту 7351")
+    logger.info("API сервер запущен на порту 7216")
     
     await dp.start_polling(bot)
 
