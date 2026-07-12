@@ -247,7 +247,7 @@ async def main():
     
     runner = web.AppRunner(app)
     await runner.setup()
-    site = web.TCPSite(runner, '0.0.0.0', 9264)
+    site = web.TCPSite(runner, '0.0.0.0', 7216)
     await site.start()
     logger.info("API сервер запущен на порту 7351")
     
